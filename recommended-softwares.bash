@@ -1,8 +1,10 @@
 ##This is a list of free softwares i personally recommend with a small description of them. I will try to keep it in a way that can be downloaded by running the current document as a bash script, since most of them are on popular repositories such as pip or apt.
 
-#This script can be runned in most linux distros, if you are using windows, mac or some distro with an more exotic ecosystem, you can still use it as reference to download the described softwares, as they are usually in multiple plataforms for download.
+#This script can be runned in most linux distros, if you are using windows, mac or some distro with an more exotic ecosystem like arch, you can still use it as reference to download the described softwares, as they are usually in multiple plataforms for download.
 
-#Before we start, we need to update the system.
+###Package management systems - below a list of important package managers that we will need to install the softwares. Some of them like apt and snap almost certainly came pre-installed on your system if you do use a popular distro like ubuntu mate. Nevertheless i do make reference to them on this script at least to make sure that the packages are updated prior to installing any new software.
+
+#APT - stands for Advanced Package Tool, and its the standard management system used in debian-based distros like ubuntu. You dont "install" apt, because it comes pre-installed on these systems. However, i do mention it because we need the system up to date to install a lot of the softwares on the listen. This is done using the next command.
 
 sudo apt update; sudo apt upgrade -y;
 
