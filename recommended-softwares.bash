@@ -8,9 +8,13 @@
 
 sudo apt update; sudo apt upgrade -y;
 
-#Pip (Pip Installs Packages) is a software utility that downloads and manages packages from PyPI - the Python Package Index. Pip is a command-line program; when installed, it adds the pip command line to the system. Use the tool to install and manage Python software packages. We will need it to download several softwares on this list. [credits to https://phoenixnap.com/kb/how-to-install-pip-on-ubuntu]
+#Pip - Pip Installs Packages is a software utility that downloads and manages packages from PyPI - the Python Package Index. Pip is a command-line program; when installed, it adds the pip command line to the system. Use the tool to install and manage Python software packages. We will need it to download several softwares on this list. [credits to https://phoenixnap.com/kb/how-to-install-pip-on-ubuntu]
 
 sudo apt install python3-pip -y; sudo pip3 install --upgrade pip;
+
+#Snap - Snap is a package management system and application platform that works across a range of Linux distributions. It allows developers to package their applications and dependencies in a single container, making it easy to distribute and install software.
+
+sudo apt install snapd; sudo snap refresh; 
 
 #Deluge - Deluge is a popular torrent client. It have some minor advantages in comparassion to other alternatives, particularly its hability of being controlled by an web interface and picking up automatically torrent files from a folder.
 
