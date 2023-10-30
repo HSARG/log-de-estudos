@@ -14,10 +14,16 @@ sudo apt install python3-pip -y; sudo pip3 install --upgrade pip;
 
 #Snap - Snap is a package management system and application platform that works across a range of Linux distributions. It allows developers to package their applications and dependencies in a single container, making it easy to distribute and install software.
 
-sudo apt install snapd; sudo snap refresh; 
+sudo apt install snapd -y; sudo snap refresh; 
+
+###List of softwares and their installation procedures.
+
+#7-Zip - This compression/descompression software is an important alternative for winrar, that doesnt not waste your time asking for you to buy a license. 
+
+sudo apt install p7zip-full -y; sudo apt install p7zip-rar -y;
 
 #Deluge - Deluge is a popular torrent client. It have some minor advantages in comparassion to other alternatives, particularly its hability of being controlled by an web interface and picking up automatically torrent files from a folder.
 
 sudo apt install deluge deluged deluge-web deluge-console;
 
-
+#
