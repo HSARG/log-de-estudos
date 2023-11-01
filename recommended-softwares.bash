@@ -22,6 +22,10 @@ sudo apt install snapd -y; sudo snap refresh;
 
 sudo apt install p7zip-full -y; sudo apt install p7zip-rar -y;
 
+#Xscreensaver - This software is a collection of screensavers, adding volume to the few options avaliable on the vanilla system. Personally, Xmatrix is my favorite.
+
+sudo apt install xscreensaver* -y;
+
 #Deluge - Deluge is a popular torrent client. It have some minor advantages in comparassion to other alternatives, particularly its hability of being controlled by an web interface and picking up automatically torrent files from a folder.
 
 sudo apt install deluge deluged deluge-web deluge-console;
