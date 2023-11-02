@@ -26,6 +26,10 @@ sudo apt install p7zip-full -y; sudo apt install p7zip-rar -y;
 
 sudo apt install xscreensaver* -y;
 
+#Calibre - For anyone who owns a e-reader, calibre plays an important role by converting different types of archives to a format that is more friendly to be readed on the device. 
+
+sudo apt install calibre -y;
+
 #Deluge - Deluge is a popular torrent client. It have some minor advantages in comparassion to other alternatives, particularly its hability of being controlled by an web interface and picking up automatically torrent files from a folder.
 
 sudo apt install deluge deluged deluge-web deluge-console;
