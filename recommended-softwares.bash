@@ -22,6 +22,10 @@ sudo apt install snapd -y; sudo snap refresh;
 
 sudo apt install p7zip-full -y; sudo apt install p7zip-rar -y;
 
+#GNOME Soundconverter - Pretty straightfoward tool to convert all short of audio files to different formats. Particularly usefull for mass convertion.
+
+sudo apt install soundconverter -y;
+
 #Xscreensaver - This software is a collection of screensavers, adding volume to the few options avaliable on the vanilla system. Personally, Xmatrix is my favorite.
 
 sudo apt install xscreensaver* -y;
