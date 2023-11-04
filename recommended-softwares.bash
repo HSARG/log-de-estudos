@@ -26,6 +26,10 @@ sudo apt install p7zip-full -y; sudo apt install p7zip-rar -y;
 
 sudo apt install soundconverter -y;
 
+#Xnconverter - Fast, powerful and free cross-platform batch image converter. Pretty usefull when you need to do something like reducing the scale of 10000 images in one go. 
+
+sudo apt-get install xnconvert -y;
+
 #Xscreensaver - This software is a collection of screensavers, adding volume to the few options avaliable on the vanilla system. Personally, Xmatrix is my favorite.
 
 sudo apt install xscreensaver* -y;
