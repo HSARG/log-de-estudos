@@ -12,6 +12,10 @@ sudo apt update; sudo apt upgrade -y;
 
 sudo apt install python3-pip -y; sudo pip3 install --upgrade pip;
 
+#Flatpak - Flatpak, formerly known as xdg-app, is a utility for software deployment and package management for Linux. 
+
+sudo apt install flatpak -y;
+
 #Snap - Snap is a package management system and application platform that works across a range of Linux distributions. It allows developers to package their applications and dependencies in a single container, making it easy to distribute and install software.
 
 sudo apt install snapd -y; sudo snap refresh; 
