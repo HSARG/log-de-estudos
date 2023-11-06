@@ -12,7 +12,7 @@ sudo apt update; sudo apt upgrade -y;
 
 sudo apt install python3-pip -y; sudo pip3 install --upgrade pip;
 
-#Flatpak - Flatpak, formerly known as xdg-app, is a utility for software deployment and package management for Linux. 
+#Flatpak - Formerly known as xdg-app, is a utility for software deployment and package management for Linux. 
 
 sudo apt install flatpak -y;
 
@@ -33,6 +33,10 @@ sudo apt install soundconverter -y;
 #Xnconverter - Fast, powerful and free cross-platform batch image converter. Pretty usefull when you need to do something like reducing the scale of 10000 images in one go. 
 
 sudo apt-get install xnconvert -y;
+
+#Hydrapaper - While there isnt nothing wrong with the default wallpaper system on ubuntu, it also lacks options for people who use more than one monitor. Thats where Hydrapaper came in; it helps you set different wallpapers for each different monitor you use.
+
+flatpak install org.gabmus.hydrapaper.flatpakref -y;
 
 #Xscreensaver - This software is a collection of screensavers, adding volume to the few options avaliable on the vanilla system. Personally, Xmatrix is my favorite.
 
