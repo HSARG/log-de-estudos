@@ -14,7 +14,8 @@ sudo apt install python3-pip -y; sudo pip3 install --upgrade pip;
 
 #Flatpak - Formerly known as xdg-app, is a utility for software deployment and package management for Linux. 
 
-sudo apt install flatpak -y;
+sudo apt install flatpak -y; 
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo;
 
 #Snap - Snap is a package management system and application platform that works across a range of Linux distributions. It allows developers to package their applications and dependencies in a single container, making it easy to distribute and install software.
 
@@ -33,6 +34,10 @@ sudo apt install soundconverter -y;
 #Xnconverter - Fast, powerful and free cross-platform batch image converter. Pretty usefull when you need to do something like reducing the scale of 10000 images in one go. 
 
 sudo apt-get install xnconvert -y;
+
+#YacReader - This software was made having in mind comic books, but its usefull for daily office tasks, as it allows you to access a sequence of pictures inside a compressed rar or zip file without having to uncompress it.
+
+flatpak install yacreader -y;
 
 #Hydrapaper - While there isnt nothing wrong with the default wallpaper system on ubuntu, it also lacks options for people who use more than one monitor. Thats where Hydrapaper came in; it helps you set different wallpapers for each different monitor you use.
 
