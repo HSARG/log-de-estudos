@@ -35,6 +35,10 @@ sudo apt install soundconverter -y;
 
 sudo apt-get install xnconvert -y;
 
+#Handbrake - Open-source tool, built by volunteers, for converting video from nearly any format to a selection of modern, widely supported codecs.
+
+flatpak install flathub fr.handbrake.ghb -y;
+
 #YacReader - This software was made having in mind comic books, but its usefull for daily office tasks, as it allows you to access a sequence of pictures inside a compressed rar or zip file without having to uncompress it.
 
 flatpak install yacreader -y;
