@@ -59,6 +59,13 @@ sudo apt install calibre -y;
 
 sudo apt install deluge deluged deluge-web deluge-console;
 
+##Entreteniment & Games
+
+#Minecraft - The popular procedural open world game that constinually keeps being update. 
+
+sudo apt install openjdk-17-jre-headless -y;
+flatpak install flathub com.mojang.Minecraft -y;
+
 #Kodi - This is certainly the most mature open source media center around. Its focused on TV's, but its also pretty convenient on desktop enviromments, since it can give you tools to watch a sequence of videos by keeping tabs on what you already seen and where did you last stopped.
 
 sudo apt install software-properties-common -y; sudo add-apt-repository -y ppa:team-xbmc/ppa -y; sudo apt install kodi -y;
