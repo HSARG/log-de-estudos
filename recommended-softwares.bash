@@ -61,7 +61,11 @@ sudo apt install deluge deluged deluge-web deluge-console;
 
 ##Entreteniment & Games
 
-#Minecraft - The popular procedural open world game that constinually keeps being update. 
+#Steam - This one needs no introduction. Its online since 2003 and proved to be a sturdy and trustworth service.
+
+sudo apt install steam -y;
+
+#Minecraft - The popular procedural open world game that continually keeps being update. 
 
 sudo apt install openjdk-17-jre-headless -y;
 flatpak install flathub com.mojang.Minecraft -y;
