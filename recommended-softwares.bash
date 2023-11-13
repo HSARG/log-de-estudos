@@ -72,6 +72,10 @@ sudo apt install deluge deluged deluge-web deluge-console;
 
 sudo apt install steam -y;
 
+#Lutris - Recently, popular gaming plataforms like nintendo, xbox and sony started to close their online shoppings related to their old descontinuated consoles. This prompted some effort of hobbysts to preservate game collections. Lutris is one of the results of this effort. Its application not only keep an list of the games you have on your system, to easelly access them, but also have specific script to install them.
+
+flatpak install flathub net.lutris.Lutris -y;
+
 #Minecraft - The popular procedural open world game that continually keeps being update. 
 
 sudo apt install openjdk-17-jre-headless -y;
