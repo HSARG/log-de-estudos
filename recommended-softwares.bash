@@ -29,6 +29,10 @@ sudo snap refresh;
 
 ###List of softwares and their installation procedures.
 
+#Xpad - Stick notes application for linux.
+
+sudo apt install xpad -y;
+
 #7-Zip - This compression/descompression software is an important alternative for winrar, that doesnt not waste your time asking for you to buy a license. 
 
 sudo apt install p7zip-full -y; 
