@@ -70,6 +70,10 @@ sudo apt install calibre -y;
 
 sudo apt install deluge deluged deluge-web deluge-console;
 
+#CMatrix - Matrix digital rain for bash. Interesting to keep idle command line windows busy till you need them. All you have to do is typing cmatrix on your bash and ctrl C when you need to exit it.
+
+sudo apt install cmatrix -y;
+
 ##Entreteniment & Games
 
 #Steam - This one needs no introduction. Its online since 2003 and proved to be a sturdy and trustworth service.
