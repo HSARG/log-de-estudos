@@ -50,6 +50,10 @@ sudo apt-get install xnconvert -y;
 
 flatpak install flathub fr.handbrake.ghb -y;
 
+#Kmag - Small utility for Linux to magnify a part of the screen. KMag is very useful for people with visual disabilities and for those working in the fields of image analysis, web development etc.
+
+sudo apt install kmag -y;
+
 #YacReader - This software was made having in mind comic books, but its usefull for daily office tasks, as it allows you to access a sequence of pictures inside a compressed rar or zip file without having to uncompress it.
 
 flatpak install yacreader -y;
