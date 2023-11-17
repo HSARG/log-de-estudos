@@ -33,6 +33,10 @@ sudo snap refresh;
 
 flatpak install flathub net.nokyan.Resources -y;
 
+#CPU-X - This application is an analogue to the popular CPU-Z for windows, which is to say, its a program that display informations about your current hardware, such as motherboard, cpu, memory, etc.
+
+sudo apt-get install cpu-x -y;
+
 #Xpad - Stick notes application for linux.
 
 sudo apt install xpad -y;
