@@ -58,6 +58,10 @@ sudo apt-get install xnconvert -y;
 
 flatpak install flathub fr.handbrake.ghb -y;
 
+#GIMP - Open source image editor. A favorite for people who dont have money for adobe photoshop.
+
+sudo apt install gimp -y;
+
 #Kmag - Small utility for Linux to magnify a part of the screen. KMag is very useful for people with visual disabilities and for those working in the fields of image analysis, web development etc.
 
 sudo apt install kmag -y;
