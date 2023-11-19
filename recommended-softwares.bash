@@ -29,6 +29,10 @@ sudo snap refresh;
 
 ###List of softwares and their installation procedures.
 
+#Gparted - GParted is used for creating, deleting, resizing, moving, checking, and copying disk partitions and their file systems. 
+
+sudo apt install gparted -y;
+
 #Resources - While linux distros already came with system monitor softwares, Resources offers interesing new features, like the ability to monitor ssd and hdd usage, for instance.
 
 flatpak install flathub net.nokyan.Resources -y;
