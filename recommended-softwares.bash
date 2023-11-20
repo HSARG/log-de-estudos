@@ -33,6 +33,10 @@ sudo snap refresh;
 
 sudo apt install gparted -y;
 
+#Putty - Terminal emulator, serial console and network file transfer application. It supports several network protocols, including SCP, SSH, Telnet, rlogin, and raw socket connection. It can also connect to a serial port. 
+
+sudo apt install putty -y;
+
 #Resources - While linux distros already came with system monitor softwares, Resources offers interesing new features, like the ability to monitor ssd and hdd usage, for instance.
 
 flatpak install flathub net.nokyan.Resources -y;
