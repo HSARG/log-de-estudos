@@ -66,6 +66,12 @@ sudo apt-get install xnconvert -y;
 
 flatpak install flathub fr.handbrake.ghb -y;
 
+#OBS Studio - Free and open source software for video recording and live streaming.
+
+sudo add-apt-repository ppa:obsproject/obs-studio; 
+sudo apt update; 
+sudo apt install obs-studio -y;
+
 #GIMP - Open source image editor. A favorite for people who dont have money for adobe photoshop.
 
 sudo apt install gimp -y;
