@@ -125,4 +125,6 @@ sudo apt install software-properties-common -y;
 sudo add-apt-repository -y ppa:team-xbmc/ppa -y; 
 sudo apt install kodi -y;
 
+#VLC -  Free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.
 
+sudo snap install vlc -y;
