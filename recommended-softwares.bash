@@ -128,3 +128,7 @@ sudo apt install kodi -y;
 #VLC -  Free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.
 
 sudo snap install vlc -y;
+
+#Flowblade Movie Editor - Free and open-source video editing software for Linux. The project was started by lead developer Janne Liljeblad in 2009 and has been active since. 
+
+sudo apt install flowblade -y;
