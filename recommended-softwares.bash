@@ -76,6 +76,10 @@ sudo apt install obs-studio -y;
 
 sudo apt install gimp -y;
 
+#Inkscape - Free and Open Source Software licensed under the GPL
+
+sudo apt-get install inkscape -y;
+
 #Kmag - Small utility for Linux to magnify a part of the screen. KMag is very useful for people with visual disabilities and for those working in the fields of image analysis, web development etc.
 
 sudo apt install kmag -y;
