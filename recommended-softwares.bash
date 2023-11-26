@@ -45,6 +45,10 @@ flatpak install flathub net.nokyan.Resources -y;
 
 sudo apt-get install cpu-x -y;
 
+#Shutter - Screenshot program for Linux based operating systems such as Ubuntu. You can take a screenshot of a specific area, window, your whole screen, or even of a website – apply different effects to it, draw on it to highlight points, and then upload to an image hosting site, all within one window.
+
+sudo apt install shutter -y;
+
 #Xpad - Stick notes application for linux.
 
 sudo apt install xpad -y;
