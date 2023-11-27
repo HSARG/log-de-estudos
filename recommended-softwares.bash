@@ -127,6 +127,10 @@ flatpak install flathub net.lutris.Lutris -y;
 sudo apt install openjdk-17-jre-headless -y;
 flatpak install flathub com.mojang.Minecraft -y;
 
+#Flasharch Player - For old schoolers, or internet archeologists, there is a lot of flash player content around, in the past you could run these things directly from the web browser, but at the present time you need an dedicated program for doing this. Thats where Flasharch Player came in.
+
+sudo snap install flasharch -y;
+
 #Kodi - This is certainly the most mature open source media center around. Its focused on TV's, but its also pretty convenient on desktop enviromments, since it can give you tools to watch a sequence of videos by keeping tabs on what you already seen and where did you last stopped.
 
 sudo apt install software-properties-common -y; 
