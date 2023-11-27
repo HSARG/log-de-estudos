@@ -29,6 +29,10 @@ sudo snap refresh;
 
 ###List of softwares and their installation procedures.
 
+#Draw.io - Cross-platform graph drawing software developed in HTML5 and JavaScript. Its interface can be used to create diagrams such as flowcharts, wireframes, UML diagrams, organizational charts, and network diagrams. Parts of its source code are provided under the Apache 2 open-source license.
+
+sudo snap install drawio -y;
+
 #Gparted - GParted is used for creating, deleting, resizing, moving, checking, and copying disk partitions and their file systems. 
 
 sudo apt install gparted -y;
