@@ -40,7 +40,7 @@ rm cover-thumbnailer;
 
 #Draw.io - Cross-platform graph drawing software developed in HTML5 and JavaScript. Its interface can be used to create diagrams such as flowcharts, wireframes, UML diagrams, organizational charts, and network diagrams. Parts of its source code are provided under the Apache 2 open-source license.
 
-sudo snap install drawio -y;
+sudo snap install drawio;
 
 #Gparted - GParted is used for creating, deleting, resizing, moving, checking, and copying disk partitions and their file systems. 
 
@@ -125,6 +125,10 @@ sudo apt install deluge deluged deluge-web deluge-console;
 
 sudo apt install cmatrix -y;
 
+#Discord - While hated by many, discord seens to be pretty much the successor of the popular php forums that existed in the past.
+
+sudo snap install discord;
+
 ##Entreteniment & Games
 
 #Steam - This one needs no introduction. Its online since 2003 and proved to be a sturdy and trustworth service.
@@ -142,7 +146,7 @@ flatpak install flathub com.mojang.Minecraft -y;
 
 #Flasharch Player - For old schoolers, or internet archeologists, there is a lot of flash player content around, in the past you could run these things directly from the web browser, but at the present time you need an dedicated program for doing this. Thats where Flasharch Player came in.
 
-sudo snap install flasharch -y;
+sudo snap install flasharch;
 
 #Kodi - This is certainly the most mature open source media center around. Its focused on TV's, but its also pretty convenient on desktop enviromments, since it can give you tools to watch a sequence of videos by keeping tabs on what you already seen and where did you last stopped.
 
@@ -152,7 +156,7 @@ sudo apt install kodi -y;
 
 #VLC -  Free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.
 
-sudo snap install vlc -y;
+sudo snap install vlc;
 
 #Flowblade Movie Editor - Free and open-source video editing software for Linux. The project was started by lead developer Janne Liljeblad in 2009 and has been active since. 
 
