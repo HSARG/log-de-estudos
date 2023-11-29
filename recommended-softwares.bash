@@ -29,6 +29,15 @@ sudo snap refresh;
 
 ###List of softwares and their installation procedures.
 
+#Cover Thumbnailer - For some reason, linux distros usually dont have thumbnails on their folders structures. Cover thumbnail serves this purpose.
+
+sudo apt install git gettext python3-pil python3-gi gir1.2-gtk-3.0;
+git clone https://github.com/flozz/cover-thumbnailer.git;
+cd cover-thumbnailer;
+sudo ./install.sh --install;
+cd ..;
+rm cover-thumbnailer;
+
 #Draw.io - Cross-platform graph drawing software developed in HTML5 and JavaScript. Its interface can be used to create diagrams such as flowcharts, wireframes, UML diagrams, organizational charts, and network diagrams. Parts of its source code are provided under the Apache 2 open-source license.
 
 sudo snap install drawio -y;
