@@ -12,7 +12,7 @@ sudo apt upgrade -y;
 #Pip - Pip Installs Packages is a software utility that downloads and manages packages from PyPI - the Python Package Index. Pip is a command-line program; when installed, it adds the pip command line to the system. Use the tool to install and manage Python software packages. We will need it to download several softwares on this list. [credits to https://phoenixnap.com/kb/how-to-install-pip-on-ubuntu]
 
 sudo apt install python3-pip -y; 
-sudo pip3 install --upgrade pip;
+install --upgrade pip;
 pip install pip-review;
 pip-review --local --auto;
 
