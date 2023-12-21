@@ -109,6 +109,10 @@ flatpak install yacreader -y;
 
 flatpak install org.gabmus.hydrapaper.flatpakref -y;
 
+#Hidamari - Video wallpaper for Linux. Written in Python
+
+flatpak install flathub hidamari -y;
+
 #Xscreensaver - This software is a collection of screensavers, adding volume to the few options avaliable on the vanilla system. Personally, Xmatrix is my favorite.
 
 sudo apt install xscreensaver* -y;
