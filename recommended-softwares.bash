@@ -16,6 +16,10 @@ install --upgrade pip;
 pip install pip-review;
 pip-review --local --auto;
 
+#Ruby - I actually dont know anything about ruby, but apparently there are applications that are written with it and you will need it in order to run them.
+
+sudo apt-get install ruby-full -y;
+
 #Flatpak - Formerly known as xdg-app, is a utility for software deployment and package management for Linux. 
 
 sudo apt install flatpak -y; 
